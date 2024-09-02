@@ -1,0 +1,75 @@
+/* styles for sign up */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d3d3d3; 
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-form {
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+.signup-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+.signup-form .input-field {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Adds space between the input fields */
+    margin-bottom: 15px;
+}
+
+.signup-form .input-field input {
+    width: 48%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.signup-form input[type="email"],
+.signup-form input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.signup-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #5a9cff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.signup-form button:hover {
+    background-color: #4389ff; /* Slightly darker blue on hover */
+}
+
